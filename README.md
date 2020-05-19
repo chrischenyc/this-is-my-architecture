@@ -10,9 +10,10 @@
 
 - [Amazon Fresh: Serverless Product Selection at Amazon Fresh](amazon-fresh/README.md)
 - [Edmunds: Event-Driven, Serverless, and Cost-Effective Enterprise Message Bus](edmuns/README.md)
+- [Gousto: Building a Robust, Asynchronous Message Bus using AWS Lambda, Amazon SNS, and Amazon SQS](gousto/README.md)
 - [Halodoc: Building the Future of Tele-Health One Microservice at a Time](halodoc/README.md)
 - [Nordstrom: Event-Sourced Serverless Architectures](nordstrom/README.md)
 
 ## Errors
 
-I'm pretty there's a ton of errors here and there, please help correct me if I'm wrong by raising an issue, cheers!
+I'm pretty sure there's a ton of errors here and there, please help correct my ignorance and nativeness by [raising an issue](https://github.com/chrischenyc/this-is-my-architecture/issues/new) or dropping me an [email](mailto:chris@capturedlabs.com), cheers!
