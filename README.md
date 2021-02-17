@@ -1,12 +1,15 @@
 # This is my architecture
 
-In this day and age, people who build software on the web are facing many technical decisions. I find it is beneficial to review system design retrospectively, to relive the decision makings, the trade-offs taken, the wins and losses, and the potentially better alternatives...
+In this day and age, people who design and build software solutions in the cloud are juggling with many technical decisions. I find it is beneficial to review cloud solution design retrospectively, to relive the decision makings, the trade-offs taken, the wins and losses, and the potentially better alternatives...
 
-## Architectures recreated from my project experience
+## Architectures recreated from past projects (WIP)
 
-- [Fuutr: 2018-2019](fuutr/README.md)
+- [GiftFlick (2020-2021, serverless architecture)](giftflick/README.md)
+- [RACV home.er (2020-2021, serverless architecture)]() (WIP)
+- [MrYum (2019-2020, monolithic architecture, container orchestrate by Kubernetes)]() (WIP)
+- [Fuutr (2018-2019, monolithic architecture, container orchestrated by EKS)](fuutr/README.md)
 
-## Architectures recreated while I watching [AWS This Is My Architecture](https://aws.amazon.com/this-is-my-architecture/)
+## Architectures recreated while watching [AWS This Is My Architecture](https://aws.amazon.com/this-is-my-architecture/)
 
 - [Amazon Fresh: Serverless Product Selection at Amazon Fresh](amazon-fresh/README.md)
 - [Edmunds: Event-Driven, Serverless, and Cost-Effective Enterprise Message Bus](edmuns/README.md)

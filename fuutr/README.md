@@ -6,15 +6,15 @@ An attempt to launch a Lime-like e-scooter sharing platform in Australia.
 
 Tech stack: Node.js, React, MongoDB, Docker, Elastic Beanstalk, ECS, Fargate, S3, Cloudfront, Stripe, Twilio, Swift
 
-## System design (recreated from memory)
+## System design
 
-![architecture-diagram](./architecture.png)
+![architecture-diagram](./fuutr-architecture.png)
 
 ## Notes
 
 1. Due to the time constrain (4-month intensive sprint) and team-size (1 tech co-founder, 1 part-time contractor), there was no CI/CD process. Deployments were done through running SHELL scripts which essentially invoke AWS CLI commands.
 
-2. Part of the front-end deployment was to invalidate existing React bundle cached on CloudFront.
+2. Cache busting after new version of React front-end bundle is deployed.
 
 3. MonoDB Atlas cluster provides its own auto-scaling strategy.
 
