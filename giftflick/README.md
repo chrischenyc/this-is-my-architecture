@@ -8,7 +8,7 @@ Tech stack: Node.js, Serverless framework, Lambda, API Gateway, Aurora Serverles
 
 ## System design
 
-![architecture-diagram](./giftflick-architecture.png)
+![architecture-diagram](./architecture.png)
 
 ## Notes
 
@@ -31,3 +31,5 @@ Tech stack: Node.js, Serverless framework, Lambda, API Gateway, Aurora Serverles
 9. Logs and errors are traced both by CloudWatch and Epsagon. While Epsagon provides high-level metrics monitoring (resource utilisation, Lambda cold start, timeout errors, etc) and notifies Ops team via emails, DevOps can always drill down the logs on CloudWatch in more detail.
 
 10. Due to the scope of this proof-of-concept project, we leverage RDS Query Editor for data management tasks.
+
+11. To reduce cost, NAT Instance is used in Dev environment instead.
